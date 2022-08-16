@@ -1,7 +1,7 @@
 #include "sort.h"
 /**
  * selection_sort - Sort an array of integers in ascending order
- * using the selection sort algorithm.
+ *                  using the selection sort algorithm.
  * @array: array to sort
  * @size: size of array
  * Description: Prints the array after each swap.
