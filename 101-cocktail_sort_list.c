@@ -8,7 +8,7 @@
  * @tail: A pointer to the tail of the doubly-linked list.
  * @shaker: A pointer to the current swapping node of the cocktail shaker algo.
  */
-void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker)
+void swap_node_ahead(listint_t **list, listint_t *node)
 {
 	node->next->prev = node->prev;
 	if (node->prev)
